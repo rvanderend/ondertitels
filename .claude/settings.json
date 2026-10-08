@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "additionalDirectories": ["/media/video"],
+    "allow": [
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(mkvmerge -i:*)",
+      "Bash(tools/extract.sh:*)",
+      "Bash(node tools/srt.js:*)",
+      "Bash(find /media/video:*)",
+      "Edit(werk/**)",
+      "Edit(//media/video/**/*.nl.srt)"
+    ]
+  }
+}
