@@ -9,7 +9,7 @@ Argument: een pad naar een `.mkv`, of een map. Bij een map: zoek met
 `find <map> -type f -name '*.mkv' | sort` en verwerk de bestanden **één voor één**
 met de stappen hieronder. Houd een lijstje bij van gelukt / overgeslagen / mislukt.
 
-Werk vanuit de projectmap `/workspace/ondertitels`. Per film is de werkmap
+Werk vanuit de projectmap (de map met `tools/` en `.claude/`). Per film is de werkmap
 `werk/<bestandsnaam zonder .mkv>/`.
 
 ## Stappen per film
